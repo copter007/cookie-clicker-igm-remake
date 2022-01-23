@@ -1,1 +1,2 @@
 Let's make a game!
+  name:Cookie Clicker
