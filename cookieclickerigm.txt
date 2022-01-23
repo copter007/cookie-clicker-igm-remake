@@ -4,3 +4,6 @@ Let's make a game!
   created:23/01/2022
   updated:23/01/2022
   version:0.01
+
+Settings
+  background:https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg
