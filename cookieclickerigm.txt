@@ -12,3 +12,4 @@ Buildings
   *Cursor
   name:Cursor
   desc:Autoclicks once every 10 seconds.
+  cost:15 cookies
