@@ -8,8 +8,13 @@ Let's make a game!
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg
 
+Buttons
+  *BigCookie
+  name:Big clickable cookie
+  on click:yield 1 cookie
+
 Buildings
   *Cursor
   name:Cursor
   desc:Autoclicks once every 10 seconds.
-  cost:15 cookies
+  cost:15 cookie
