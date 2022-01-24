@@ -10,11 +10,17 @@ Settings
 
 Buttons
   *BigCookie
-  name:Big clickable cookie
-  on click:yield 1 cookie
+    name:Big clickable cookie
+    on click:yield 1 cookie
+    icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
+
+Resources
+  *cookie|cookies
+    name:Cookie|Cookies
+    show earned
 
 Buildings
   *Cursor
-  name:Cursor
-  desc:Autoclicks once every 10 seconds.
-  cost:15 cookie
+    name:Cursor
+    desc:Autoclicks once every 10 seconds.
+    cost:15 cookie
