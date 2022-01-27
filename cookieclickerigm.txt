@@ -7,7 +7,7 @@ Let's make a game!
 
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg
-  building cost increase:118%
+  building cost increase:120%
   
 Buttons
   *BigCookie
