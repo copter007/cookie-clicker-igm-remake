@@ -3,11 +3,12 @@ Let's make a game!
   desc:Cookie Clicker is a javascript game by Orteil and Opti.
   created:23/01/2022
   updated:24/01/2022
-  version:1.03
+  version:1.04
 
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg
   building cost increase:120%
+  
 Buttons
   *BigCookie
     name:Big clickable cookie
