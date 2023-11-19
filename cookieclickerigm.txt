@@ -7,12 +7,16 @@ Let's make a game!
 
 Settings
   background:https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg
-  building cost increase:120%
+  building cost increase:10%
   
 Buttons
   *BigCookie
     name:Big clickable cookie
     on click:yield 1 cookie
+    icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
+  *BigCoin
+    name:Big clickable Coin
+    on click:yield 1 Coin
     icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
 
 Resources
@@ -20,8 +24,27 @@ Resources
     name:Cookie|Cookies
     show earned
 
+  *Coin|Coins
+    name:Coin|Coins
+    show earned
+
+Upgrades
+  *bitcoin
+    name:Bit of Coin
+    desc:Everybody's sell it!
+    passive:multiply yield of BigCoin by 100
+    cost:200000 Coin
+
 Buildings
   *Cursor
     name:Cursor
-    desc:Autoclicks once every 10 seconds.
-    cost:15 cookie
+    desc:Autoclicks once every inf seconds.
+    passive:multiply yield of BigCookie by 0.2
+    cost:1 cookie
+    on tick:yield (Cursor/4) cookie
+  *NOTCursor
+    name:NOT!!!Cursor
+    desc:NOT!!!Autoclicks once every inf seconds.
+    cost:1 Coin
+    passive:multiply yield of BigCoin by 0.2
+    icon:https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png
